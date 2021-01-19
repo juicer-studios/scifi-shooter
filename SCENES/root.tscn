@@ -10,5 +10,13 @@
 [node name="Player" parent="." instance=ExtResource( 1 )]
 transform = Transform( 0.6259, 0, 0, 0, 1, 0, 0, 0, 0.60052, 0, 2.27926, 0 )
 
-[node name="Camera" type="Camera" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0231664, 0.744971, 6.6172 )
+[node name="Camera" type="Camera" parent="Player"]
+transform = Transform( 1.5977, 0, 0, 0, 1, 0, 0, 0, 1.66522, 0.0370129, -1.53429, 11.0191 )
+current = true
+
+[node name="Label" type="Label" parent="Player"]
+margin_right = 40.0
+margin_bottom = 14.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
